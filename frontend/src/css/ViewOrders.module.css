@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text color */
+  }
+  
+  .container {
+    max-width: 40%;
+    background-color: #ffffff; /* White container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary blue */
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Search Bar */
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .input-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  /* Table */
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  thead.thead-dark {
+    background-color: #343a40; /* Dark gray background */
+    color: #ffffff; /* White text */
+    font-weight: bold;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+  }
+  
+  th {
+    text-transform: capitalize;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f8f9fa; /* Light gray row background */
+  }
+  
+  tbody tr:hover {
+    background-color: #e9ecef; /* Light hover effect */
+  }
+  
+  .text-center {
+    font-style: italic;
+    color: #6c757d; /* Muted text for no orders message */
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 10px;
+    }
+  
+    .input-group input {
+      font-size: 14px;
+    }
+  }
+  

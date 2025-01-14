@@ -1,0 +1,68 @@
+/* Login.css */
+
+
+
+body {
+  background: url('../assets/login.jpeg') no-repeat center center fixed; 
+   background-size: cover; 
+  
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.bgimage{
+  background: url('../assets/login.jpeg') no-repeat center fixed;
+  background-size: cover;
+}
+
+
+ .bgblue{
+  background: #adc6f89b !important;
+}
+
+
+.login body {
+  max-width: min-content;
+  background-color: #b17e53;
+  color: #db7e33;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #362828;
+}
+
+.form-label {
+  color: #d0a910;
+}
+
+.form-control {
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
